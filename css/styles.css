@@ -1,0 +1,26 @@
+/* Alle Elemente können (und sollen) verändert werden. */
+@import "bootstrap";
+
+body {
+  color: #ffc0ab;
+}
+
+#carouselExampleControls {
+  margin-bottom: 4rem;
+}
+
+.col {
+  text-align: center;
+}
+
+.card {
+  margin: 4rem 0 4rem 0;
+}
+
+footer {
+  margin-top: 4rem;
+}
+
+h1 {
+  text-align:center
+}
