@@ -39,7 +39,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  cursor: url('../../images/cursor.png') 32 32,auto !important;
+  cursor: url('../../assets/cursor.png') 32 32,auto !important;
 }
 
 html {
@@ -545,7 +545,7 @@ pre code {
 .container-md,
 .container-lg,
 .container-xl {
-  width: 65%;
+  width: 80%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -554,11 +554,10 @@ pre code {
 }
 
 .container-fluid{
-  width: 60%;
+  width: 100%;
   margin-right: auto;
   margin-left: auto;
   transition : 0.5s;
-
 }
 
 .container-fluid:hover{
@@ -4803,7 +4802,7 @@ input[type="button"].btn-block {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color: #2e0101;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
@@ -4845,6 +4844,7 @@ input[type="button"].btn-block {
 
 .card-title {
   margin-bottom: 0.75rem;
+  text-align : center;
 }
 
 .card-subtitle {
@@ -6523,6 +6523,7 @@ a.close.disabled {
 
   transition:0.5s;
 }
+
 .carousel-item:hover{
 filter: blur(0px) brightness(1);
 
