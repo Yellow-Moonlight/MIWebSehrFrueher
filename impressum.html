@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!-- Alle Elemente können (und sollen) verändert werden. Dieses Template dient als Orientierung, wie Bootstrap in Internetseiten eingebaut werden kann. -->
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Website Titel -->
+    <title>MI1 Website 24/25 Sehr Früher Main</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <!-- Bootstrap Javascript Dateien -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+
+    <!-- Eigene Styles/CSS Dateien -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- aos js and css -->
+    <link rel="stylesheet" href="aos/aos.css">
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <p class="sr-only"><a href="#myMain">Zum Hauptinhalt</a></p>
+    <!-- Header mit Navigation Bar -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark"> 
+            <a class = "navbar-brand" href = "index.html">
+                <img src = "assets/logo.png" alt = "logo image" height="36">
+            </a>
+            <a class="navbar-brand text-primary" href="index.html">Sehr Früher</a>
+            <!-- Hamburger Menu (für mobile Endgeräte bzw. kleinere Bildschirme) -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu"
+                aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navigation -->
+            <div class="navbar-collapse collapse" id="navbarMenu">
+                <ul class="navbar-nav">
+                    <li class="nav-link active"> <a href="index.html">Home <span class="sr-only">(aktiv)</span></a>
+                    </li>
+                    <li class="nav-link"> <a href="impressum.html">Impressum</a> </li>
+                    <li class="nav-link"> <a href="quellen.html">Quellen</a> </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content/Inhalt -->
+    <main id="myMain">
+      <div class="container animate__animated animate__fadeIn">
+        <h1 style="text-align : left">
+          Impressum
+        </h1>
+        <h4>Autoren/-innen</h4>
+        <ul>
+            <li> Bengt Bolte, Hyewon Park, Seongjoo Mon</li>
+            <li> Übungsaufgabe im Kurs Grundlagen der Medieninformatik 1
+            </li>
+
+        </ul>
+        <br>
+        <h4>Veranstalter
+        </h4>
+        <ul>
+            <li> Prof. Dr.-Ing. Udo Frese </li>
+            <li> Unversität Bremen
+            </li>
+            <li> Enrique-Schmidt-Str. 5
+            </li>
+            <li> 28359 Bremen
+            </li>
+            <li><a href="mailto:ufrese@uni-bremen.com"></a> ufrese@uni-bremen.de </li>
+        </ul>
+        <br>
+        <h2>Übergeordnete Website</h2>
+        <ul>
+            <li> <a href="https://www.uni-bremen.de/impressum.html">
+              Impressum der Universität Bremen</a> </li>
+        </ul>
+    </div>
+        
+    </main>
+
+    <!-- Footer Abschnitt -->
+    <footer class="container">
+        <p class="float-right"><a href="#">Nach oben</a></p>
+        <p> <a href="impressum.html"> Impressum </a> </p>
+        
+    </footer>
+</body>
+<!-- for animation with scroll -->
+<script src="aos/aos.js"></script>
+        <script>
+          AOS.init({
+            offset: 300,
+            durations: 1000
+          });
+        </script>
+
+</html>
